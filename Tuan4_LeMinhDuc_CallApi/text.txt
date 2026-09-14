@@ -1,0 +1,2 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+http://localhost:8081
