@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "email": "an@gmail.com",
+      "password": "$2a$10$pDEa13HpLHUEnHXVKrzu4.wsRemAMTMCSW2j96iRhx2EhjKk/v0P2"
+    },
+    {
+      "id": 4,
+      "name": "Tài khoản Test",
+      "email": "test@gmail.com",
+      "password": "$2a$10$pDEa13HpLHUEnHXVKrzu4.wsRemAMTMCSW2j96iRhx2EhjKk/v0P2"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Dế Mèn Phiêu Lưu Ký",
+      "author": "Tô Hoài",
+      "category": "Văn học",
+      "price": 45000,
+      "image": "https://picsum.photos/seed/book1/300/450",
+      "description": "Dế Mèn Phiêu Lưu Ký của Tô Hoài, một tác phẩm văn học kinh điển."
+    },
+    {
+      "id": 8,
+      "title": "Tư Duy Nhanh Và Chậm",
+      "author": "Daniel Kahneman",
+      "category": "Kỹ năng",
+      "price": 150000,
+      "image": "https://picsum.photos/seed/book8/300/450",
+      "description": "Cuốn sách phân tích hai hệ thống tư duy chi phối nhận thức con người."
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 5,
+      "comment": "Sách rất hay và ý nghĩa.",
+      "createdAt": "2026-10-01T09:00:00.000Z"
+    },
+    {
+      "bookId": 8,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 6,
+      "comment": "hay ghê",
+      "createdAt": "2026-10-26T07:12:55.706Z",
+      "id": 2
+    },
+    {
+      "bookId": 8,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 5,
+      "comment": "hay đó",
+      "createdAt": "2026-10-26T07:18:00.224Z",
+      "id": 3
+    },
+    {
+      "bookId": 8,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 1,
+      "comment": "xàm",
+      "createdAt": "2026-10-26T07:18:20.600Z",
+      "id": 4
+    },
+    {
+      "bookId": 1,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 5,
+      "comment": "đọc rất cuốn",
+      "createdAt": "2026-10-26T07:23:25.367Z",
+      "id": 5
+    }
+  ]
+}
